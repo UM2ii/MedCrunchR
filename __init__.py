@@ -47,10 +47,9 @@ class Cruncher():
                     max_tokens= 800,
                     temperature= 0.0,
                     messages=[{
-                        "role": "assistant",
-                        "content": "Hi there! I'm Dolphin, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?"
+                        "role": "system",
+                        "content": query
                         },
-                        {"role": "user", "content": query }
                     ]
                     )
 
