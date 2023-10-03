@@ -9,19 +9,25 @@ Figure 1.0 MedCruncher takes multiple reports and prompt in form of excel sheet 
 ### Instructions
 
 #### Step 1: Install MedCruncher using pip
-
-`pip install medcruncher`
+```bash
+pip install medcruncher
+```
 
 #### Step 2: Install Fastchat for LLM inference
-'pip install fschat'
+```bash
+pip install fschat
+```
 
 #### Step 3: Follow the Fastchat's documentation Open-AI compatible api
-`https://github.com/lm-sys/FastChat/blob/main/docs/openai_api.md#restful-api-server`
+```bash
+https://github.com/lm-sys/FastChat/blob/main/docs/openai_api.md#restful-api-server
+```
 
 
 #### step 4: Example code to use MedCruncher module:
-
-`from wordscruncher import Cruncher
+```bash
+from wordscruncher import Cruncher
 instance = Cruncher("reports.xlsx", "EMPTY", "http://localhost:8000/v1", "vicuna-7b-v1.5-16k", "final_results")
-instance.crunch_data()`
+instance.crunch_data()
+```
 
