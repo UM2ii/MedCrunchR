@@ -1,4 +1,4 @@
-## MedCruncher - Simplify the processing of reports and documents using LLMs (Large Language Models)
+## MedCruncher - Automated labeling of medical reports and documents using LLMs (Large Language Models)
 
 ### About
 MedCruncher is a python based a wrapper to process the medical literature using Large Language Models. 
